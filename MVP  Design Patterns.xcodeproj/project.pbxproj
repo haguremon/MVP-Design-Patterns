@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF03168A26EDE3F100C55185 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03168926EDE3F100C55185 /* User.swift */; };
 		CF87841A26ECAAAB00783799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87841926ECAAAB00783799 /* AppDelegate.swift */; };
 		CF87841C26ECAAAB00783799 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87841B26ECAAAB00783799 /* SceneDelegate.swift */; };
 		CF87841E26ECAAAB00783799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87841D26ECAAAB00783799 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF03168926EDE3F100C55185 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CF87841626ECAAAB00783799 /* MVP  Design Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP  Design Patterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF87841926ECAAAB00783799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF87841B26ECAAAB00783799 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF03168726EDDB2300C55185 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF87841D26ECAAAB00783799 /* ViewController.swift */,
+				CF87841F26ECAAAB00783799 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF03168826EDE3D800C55185 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF03168926EDE3F100C55185 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF03168B26EDE5EE00C55185 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		CF87840D26ECAAAB00783799 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +125,11 @@
 		CF87841826ECAAAB00783799 /* MVP  Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				CF03168B26EDE5EE00C55185 /* Presenter */,
+				CF03168826EDE3D800C55185 /* Models */,
 				CF87841926ECAAAB00783799 /* AppDelegate.swift */,
 				CF87841B26ECAAAB00783799 /* SceneDelegate.swift */,
-				CF87841D26ECAAAB00783799 /* ViewController.swift */,
-				CF87841F26ECAAAB00783799 /* Main.storyboard */,
+				CF03168726EDDB2300C55185 /* Views */,
 				CF87842226ECAAAD00783799 /* Assets.xcassets */,
 				CF87842426ECAAAD00783799 /* LaunchScreen.storyboard */,
 				CF87842726ECAAAD00783799 /* Info.plist */,
@@ -258,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF03168A26EDE3F100C55185 /* User.swift in Sources */,
 				CF87841E26ECAAAB00783799 /* ViewController.swift in Sources */,
 				CF87841A26ECAAAB00783799 /* AppDelegate.swift in Sources */,
 				CF87841C26ECAAAB00783799 /* SceneDelegate.swift in Sources */,
