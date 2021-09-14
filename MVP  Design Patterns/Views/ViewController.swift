@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         messageLabel.isHidden = true
     }
     
-    //MARK -submitDate
+    
+    //MARK-submitDate
     @IBAction func submitDateButton(_ sender: Any) {
     
     

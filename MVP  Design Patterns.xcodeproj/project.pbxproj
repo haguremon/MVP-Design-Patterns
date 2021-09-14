@@ -16,6 +16,7 @@
 		CF87842626ECAAAD00783799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF87842426ECAAAD00783799 /* LaunchScreen.storyboard */; };
 		CF87843126ECAAAD00783799 /* MVP__Design_PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87843026ECAAAD00783799 /* MVP__Design_PatternsTests.swift */; };
 		CF87843C26ECAAAD00783799 /* MVP__Design_PatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87843B26ECAAAD00783799 /* MVP__Design_PatternsUITests.swift */; };
+		CFFB4F3626F0C22E000A7CAA /* VCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB4F3526F0C22E000A7CAA /* VCPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CF87843726ECAAAD00783799 /* MVP  Design PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP  Design PatternsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF87843B26ECAAAD00783799 /* MVP__Design_PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP__Design_PatternsUITests.swift; sourceTree = "<group>"; };
 		CF87843D26ECAAAD00783799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFB4F3526F0C22E000A7CAA /* VCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		CF03168B26EDE5EE00C55185 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				CFFB4F3526F0C22E000A7CAA /* VCPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				CF87841E26ECAAAB00783799 /* ViewController.swift in Sources */,
 				CF87841A26ECAAAB00783799 /* AppDelegate.swift in Sources */,
 				CF87841C26ECAAAB00783799 /* SceneDelegate.swift in Sources */,
+				CFFB4F3626F0C22E000A7CAA /* VCPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
